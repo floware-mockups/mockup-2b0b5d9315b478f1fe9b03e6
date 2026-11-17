@@ -1,0 +1,237 @@
+{
+  "title": "Prenotazione delle sale riunioni",
+  "description": "Gestione delle prenotazioni delle sale di un ufficio comunale, con calendario settimanale, disponibilità e richieste in attesa.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Calendario settimanale",
+      "description": "Consulta le prenotazioni e le sale disponibili per la settimana selezionata.",
+      "metrics": [
+        {
+          "label": "Prenotazioni della settimana",
+          "value": "24"
+        },
+        {
+          "label": "Sale disponibili oggi",
+          "value": "3"
+        },
+        {
+          "label": "Richieste in attesa",
+          "value": "4"
+        },
+        {
+          "label": "Ore prenotate",
+          "value": "38"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Orario",
+        "Sala",
+        "Riunione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì 12 maggio",
+          "09:00–10:30",
+          "Lumo",
+          "Pianificazione settimanale",
+          "Vela",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lunedì 12 maggio",
+          "11:00–12:00",
+          "Nubi",
+          "Revisione attività",
+          "Tilo",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Martedì 13 maggio",
+          "10:00–11:30",
+          "Vela",
+          "Coordinamento servizi",
+          "Miri",
+          "8",
+          "In attesa"
+        ],
+        [
+          "Mercoledì 14 maggio",
+          "14:00–15:00",
+          "Lumo",
+          "Incontro operativo",
+          "Runi",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Giovedì 15 maggio",
+          "09:30–11:00",
+          "Nubi",
+          "Progetto Spiga",
+          "Seli",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Venerdì 16 maggio",
+          "13:00–14:00",
+          "Vela",
+          "Riepilogo attività",
+          "Pavo",
+          "3",
+          "In attesa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Prenotazioni",
+      "description": "Filtra le prenotazioni e registra una nuova richiesta di utilizzo delle sale.",
+      "metrics": [
+        {
+          "label": "Prenotazioni attive",
+          "value": "18"
+        },
+        {
+          "label": "In attesa di conferma",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Data",
+        "Orario",
+        "Riunione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "12 maggio",
+          "09:00–10:30",
+          "Pianificazione settimanale",
+          "Vela",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "12 maggio",
+          "11:00–12:00",
+          "Revisione attività",
+          "Tilo",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Vela",
+          "13 maggio",
+          "10:00–11:30",
+          "Coordinamento servizi",
+          "Miri",
+          "8",
+          "In attesa"
+        ],
+        [
+          "Lumo",
+          "14 maggio",
+          "14:00–15:00",
+          "Incontro operativo",
+          "Runi",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "15 maggio",
+          "09:30–11:00",
+          "Progetto Spiga",
+          "Seli",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Vela",
+          "16 maggio",
+          "13:00–14:00",
+          "Riepilogo attività",
+          "Pavo",
+          "3",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Sala",
+        "Data",
+        "Orario",
+        "Riunione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale",
+      "title": "Sale riunioni",
+      "description": "Consulta capienza e dotazioni delle sale disponibili per le riunioni.",
+      "metrics": [
+        {
+          "label": "Sale totali",
+          "value": "3"
+        },
+        {
+          "label": "Sale prenotabili",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Disponibilità",
+        "Note"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "8",
+          "Schermo, lavagna",
+          "Prenotabile",
+          "Piano terra"
+        ],
+        [
+          "Vela",
+          "12",
+          "Schermo, tavolo modulare",
+          "Prenotabile",
+          "Piano primo"
+        ],
+        [
+          "Nubi",
+          "6",
+          "Lavagna, videoproiettore",
+          "Prenotabile",
+          "Piano primo"
+        ]
+      ],
+      "form": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Disponibilità",
+        "Note"
+      ]
+    }
+  ]
+}
